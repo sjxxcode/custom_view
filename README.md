@@ -8,7 +8,8 @@
 * [自己实现](https://github.com/sjxxcode/custom_view/tree/master/src/main/java/com/sj/custom_view/practice)
 
 ## 效果
-* **仿即刻点赞** 效果                             11111111111  
+* **仿即刻点赞** 效果-----------------------------11111111111  
+  ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/%E5%8D%B3%E5%88%BB%E7%82%B9%E8%B5%9E.gif)
   ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/%E5%8D%B3%E5%88%BB%E7%82%B9%E8%B5%9E.gif)
   
 * **仿PhotoView的图片查看** 效果  
