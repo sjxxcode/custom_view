@@ -5,3 +5,7 @@
 ## 目录结构
 * [仿写](https://github.com/sjxxcode/custom_view/tree/master/src/main/java/com/sj/custom_view/simulation)
 * [自己实现](https://github.com/sjxxcode/custom_view/tree/master/src/main/java/com/sj/custom_view/practice)
+
+## 效果
+* 
+*
