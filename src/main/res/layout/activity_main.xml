@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sj.custom_view.practice.layout.TagLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/custom_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom-ViewPager"/>
+
+    <Button
+        android:id="@+id/scable_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScableView"/>
+
+    <Button
+        android:id="@+id/multi_touch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi-Touch"/>
+
+    <Button
+        android:id="@+id/jk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="即刻-Simulation"/>
+
+    <Button
+        android:id="@+id/jk_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="即刻-Refresh"/>
+</com.sj.custom_view.practice.layout.TagLayout>

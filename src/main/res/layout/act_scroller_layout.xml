@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sj.custom_view.practice.scroll.ScrollerLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0000FF">
+    
+    <com.sj.custom_view.practice.scroll.ScrollerTextView
+        android:id="@+id/test"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="Test"
+        android:background="@color/colorAccent"/>
+
+</com.sj.custom_view.practice.scroll.ScrollerLinearLayout>

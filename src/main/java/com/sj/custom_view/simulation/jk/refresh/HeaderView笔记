@@ -1,0 +1,56 @@
+圆环应该怎么画
+1:大圆上画小圆的办法
+--缺点:在做动画的时候不好计算，圆所在的Rect的位置
+
+2:大弧上画小弧的办法
+--缺点:在动态画的时候，在画的过程中会出现“黑线”的问题
+
+3:大弧上画小圆的办法
+--优点：
+---1:计算简单,只需要计算弧的角度就行
+---2:小圆的位置也不需要计算,就画在固定位置就行
+---3:在动态改变底部大弧的角度的时候，也不会出现“黑线”的问题
+
+--------------------------
+//大圆上画小圆的办法
+private void drawArc2(){
+        //canvas.save();
+        //Path path = new Path();
+        //canvas.clipRect(clipLeft, clicpTop, clipLeft + radius,  clicpTop + radius);
+        //path.addCircle(clipLeft, clicpTop, radius - radiusInner, Path.Direction.CCW);
+        //path.addCircle(clipLeft, clicpTop, radius, Path.Direction.CW);
+        //canvas.drawPath(path, paint);
+        //canvas.restore();
+    }
+
+//弧上画小弧的办法
+//1:这种的话可以不用Xfermode,只需要在画弧的时候使用不同的画笔,画笔的颜色不一样就行
+//2:使用Xfermode,但是前提是“画笔的”属性一样，或者压根就用一个画笔
+private void drawArc3(Canvas canvas){
+    //draw底部
+    int clipLeft = (this.getWidth() - this.mArcWH) / 2;
+    int clicpTop = (this.getHeight() - this.mArcWH) / 2;
+
+    int count = canvas.saveLayer(clipLeft, clicpTop ,
+            clipLeft + this.mArcWH,
+            clicpTop + this.mArcWH, null);
+
+    canvas.drawArc(clipLeft,
+            clicpTop,
+            clipLeft + this.mArcWH,
+            clicpTop + this.mArcWH,
+            0, this.mAngle, true, this.mArcPaint);
+
+    Xfermode xfermode = new PorterDuffXfermode(PorterDuff.Mode.DST_OUT);
+    this.mArcPaint.setXfermode(xfermode);
+
+    int temp = this.mArcWH - this.mArcDiff;
+    canvas.drawArc(clipLeft + this.mArcDiff,
+            clicpTop + this.mArcDiff,
+            clipLeft + temp,
+            clicpTop + temp,
+            0 , 360, true, this.mArcPaint2);
+    this.mArcPaint.setXfermode(null);
+
+    canvas.restoreToCount(count);
+}
