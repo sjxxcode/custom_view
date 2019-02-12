@@ -12,11 +12,11 @@
   ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/dianzan.gif)
   ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/dianzan2.gif)
   
-* **仿PhotoView的图片查看** 效果  
-  ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/scable.gif)
-
 * **刷新控件_仿即刻刷新** 效果  
   ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/refresh.gif)
+  
+* **仿PhotoView的图片查看** 效果  
+  ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/scable.gif)
   
 * **自定义Layout实现ViewPager**  
   ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/viewpager_view.gif)
