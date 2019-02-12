@@ -23,3 +23,6 @@
 
 * **自定义Layout实现标签布局**  
   ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/taglayout1.PNG)  ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/taglayout2.PNG)
+  
+* **多点触摸**  
+  ![https://github.com/sjxxcode/custom_view/blob/master/imgs/multi_touch1.gif]  ![] (https://github.com/sjxxcode/custom_view/blob/master/imgs/multi_touch2.gif)
