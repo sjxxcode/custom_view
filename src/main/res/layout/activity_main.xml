@@ -4,6 +4,12 @@
     android:layout_height="match_parent">
 
     <Button
+        android:id="@+id/taglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom-TagLayout"/>
+
+    <Button
         android:id="@+id/custom_viewpager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

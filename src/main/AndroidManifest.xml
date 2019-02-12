@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.sj.custom_view.practice.layout.TagActivity"/>
         <activity android:name="com.sj.custom_view.practice.layout.MyViewPagerAct"/>
         <activity android:name="com.sj.custom_view.practice.scable.ScableActivity"/>
         <activity android:name="com.sj.custom_view.practice.touch.MultiTouchActivity"/>

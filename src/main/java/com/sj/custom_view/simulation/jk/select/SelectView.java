@@ -183,7 +183,7 @@ public class SelectView extends View {
     }
 
     private void initTextChars() {
-        this.mOrignalNums = new char[]{'1', '2', '9'};
+        this.mOrignalNums = new char[]{'9', '9'};
         int origanlNum = Integer.valueOf(new String(this.mOrignalNums));
         char[] tempChars = String.valueOf(origanlNum + 1).toCharArray();
 

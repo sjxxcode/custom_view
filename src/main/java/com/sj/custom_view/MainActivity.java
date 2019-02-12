@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.sj.custom.R;
 import com.sj.custom_view.practice.layout.MyViewPagerAct;
+import com.sj.custom_view.practice.layout.TagActivity;
 import com.sj.custom_view.practice.scable.ScableActivity;
 import com.sj.custom_view.practice.touch.MultiTouchActivity;
 import com.sj.custom_view.simulation.jk.JKSelectActivity;
@@ -18,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        this.findViewById(R.id.taglayout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, TagActivity.class));
+            }
+        });
 
         this.findViewById(R.id.custom_viewpager).setOnClickListener(new View.OnClickListener() {
             @Override
