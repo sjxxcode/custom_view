@@ -19,7 +19,7 @@
   ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/scable.gif)
   
 * **自定义Layout实现ViewPager**  
-  ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/viewpager_view2.gif)
+  ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/scable2.GIF)
 
 * **自定义Layout实现标签布局**  
   ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/taglayout1.PNG)  ![](https://github.com/sjxxcode/custom_view/blob/master/imgs/taglayout2.PNG)
